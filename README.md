@@ -5,3 +5,30 @@ using this app
 , or events from #ReactAdvanced which was created by local host (so, as "127.0.0.1" in data base at Mongo).
 The disadvantage is that the IP address is not always representative of one user, therefore, for the purpose of identifying a single user, it is still better to work with cache.
 This project in full implementation can be watched at site https://www.ryzhov.website/home/  .
+
+Getting Started
+
+Prerequisites
+
+Make sure you have the following installed:
+
+	•	Node.js
+	•	npm or yarn
+
+Installation
+git clone https://github.com/artem1984A/node_react_mongo_redis.project
+cd node_react_mongo_redis.project
+
+npm install
+# or
+yarn install
+
+node index
+
+For MacOS:
+
+brew install redis
+redis-server 
+or
+redis-server --daemonize yes
+redis-cli ping (You should receive a response PONG, which indicates that the server is running and responding to commands.)
