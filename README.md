@@ -16,14 +16,19 @@ Make sure you have the following installed:
 	•	npm or yarn
 
 Installation
+
 git clone https://github.com/artem1984A/node_react_mongo_redis.project
+
 cd node_react_mongo_redis.project
+
 
 npm install
 # or
 yarn install
 
+
 node index
+
 
 For MacOS:
 
