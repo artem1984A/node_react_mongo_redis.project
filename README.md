@@ -33,7 +33,11 @@ node index
 For MacOS:
 
 brew install redis
-redis-server 
+
+redis-server
+
 or
+
 redis-server --daemonize yes
+
 redis-cli ping (You should receive a response PONG, which indicates that the server is running and responding to commands.)
